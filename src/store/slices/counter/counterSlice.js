@@ -1,7 +1,8 @@
+
 import { createSlice } from '@reduxjs/toolkit';
 
 export const counterSlice = createSlice({
-  name: 'counter',
+  name: 'pokemon',
   initialState: {
       counter: 10,
       times: 0
